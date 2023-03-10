@@ -1,0 +1,26 @@
+#info {
+  background-image: url(..//images/info/fon.svg);
+  width: 100%;
+  height: auto;
+}
+
+.info__wrapper {
+  padding: 0 50px;
+}
+
+.info__img {
+  max-width: 335px;
+  display: block;
+}
+
+.info__text {
+  font-family: "Rubik";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  color: #414141;
+  position: absolute;
+  top: 64px;
+  left: 371px;
+}

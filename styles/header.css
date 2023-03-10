@@ -1,0 +1,131 @@
+#header {
+  background: #fff;
+}
+
+.header__wrapper {
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  height: 72px;
+}
+
+.header__left {
+  display: flex;
+  width: 721px;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.header__logo {
+  margin-right: 14px;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 204px;
+}
+
+.header__sever {
+  margin-right: 40px;
+}
+
+.header__catalog {
+  margin-right: 16px;
+  position: relative;
+}
+
+.header__burger{
+    position: absolute;
+    top: 19px;
+    left: 11px;
+}
+
+.header__button {
+  background: #70c05b;
+  border: none;
+  font: inherit;
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  padding-left: 40px;
+}
+
+.header__button_line {
+  display: block;
+  width: 19px;
+  height: 1px;
+  background-color: #ffffff;
+  position: fixed;
+}
+
+.header__button_line:before {
+  content: "";
+  display: block;
+  background: #ffffff;
+  width: 19px;
+  height: 1px;
+  position: absolute;
+  top: 5px;
+}
+
+.header__button_line:after {
+  content: "";
+  display: block;
+  background: #ffffff;
+  width: 19px;
+  height: 1px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.header__search {
+  width: 375px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__icons {
+  margin-right: 40px;
+}
+
+.header__icon {
+  text-align: center;
+}
+
+.header__icon_text {
+  font-family: "Rubik";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #414141;
+}
+
+.header__avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__image {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.header__name {
+  margin-right: 24px;
+  display: block;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #232323;
+}
