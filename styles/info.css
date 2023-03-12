@@ -6,6 +6,9 @@
 
 .info__wrapper {
   padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .info__img {
@@ -20,7 +23,4 @@
   line-height: 72px;
   text-align: center;
   color: #414141;
-  position: absolute;
-  top: 64px;
-  left: 371px;
 }
