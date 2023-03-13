@@ -2,11 +2,14 @@
   background: #fff;
   background-image: url(..//images/info/fon.svg);
   width: 100%;
-  height: auto;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .info__wrapper {
-  padding: 0 50px;
+  padding: 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;

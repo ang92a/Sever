@@ -1,0 +1,36 @@
+.contact__wrapper {
+    padding-bottom: 120px;
+}
+
+.contact__citys {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    max-width: 450px;
+    flex-wrap: wrap;
+}
+
+.contact__city {
+    font-size: 12px;
+    margin-right: 24px;
+    padding: 4px 8px;
+    color: #606060;
+    background: #F3F2F1;
+    border-radius: 4px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.contact__city:hover {
+    background: #70C05B;
+    color: #F3F2F1;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.contact__map_img{
+    object-position: center;
+    object-fit: contain;
+}

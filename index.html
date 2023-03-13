@@ -14,398 +14,426 @@
 
 <body>
   <header id="header">
-    <div class="container header__wrapper">
-      <div class="header__left">
-        <div class="header__logo">
-          <img src="./images/header/logo.svg" alt="icon" />
-        </div>
-        <div class="header__sever">
-          <img src="./images/header/Sever.svg" alt="icon" />
-        </div>
-        <div class="header__catalog">
-          <button class="header__button">Каталог</button>
-          <div class="header__burger">
-            <span class="header__button_line"></span>
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__left">
+          <div class="header__logo">
+            <img src="./images/header/logo.svg" alt="icon" />
+          </div>
+          <div class="header__sever">
+            <img src="./images/header/Sever.svg" alt="icon" />
+          </div>
+          <div class="header__catalog">
+            <button class="header__button">Каталог</button>
+            <div class="header__burger">
+              <span class="header__button_line"></span>
+            </div>
+          </div>
+          <div class="header__search">
+            <input class="header__search_text" type="text" placeholder="Найти товар" />
+            <img class="header__search_icon" src="./images/header/search.svg" alt="search" />
           </div>
         </div>
-        <div class="header__search">
-          <input class="header__search_text" type="text" placeholder="Найти товар" />
-          <img class="header__search_icon" src="./images/header/search.svg" alt="search" />
-        </div>
-      </div>
-      <div class="header__right">
-        <div class="header__icons">
-          <div class="header__icon">
-            <img src="./images/header/icon1.svg" alt="icon" />
-            <p class="header__icon_text">Избранное</p>
+        <div class="header__right">
+          <div class="header__icons">
+            <div class="header__icon">
+              <img src="./images/header/icon1.svg" alt="icon" />
+              <p class="header__icon_text">Избранное</p>
+            </div>
+            <div class="header__icon">
+              <img src="./images/header/icon2.svg" alt="icon" />
+              <p class="header__icon_text">Заказы</p>
+            </div>
+            <div class="header__icon">
+              <img src="./images/header/icon3.svg" alt="icon" />
+              <p class="header__icon_text">Корзина</p>
+            </div>
           </div>
-          <div class="header__icon">
-            <img src="./images/header/icon2.svg" alt="icon" />
-            <p class="header__icon_text">Заказы</p>
+          <div class="header__avatar">
+            <img class="header__image"
+              srcset="./images/header/avatar1.webp 1x,./images/header/avatar2.webp 2x,./images/header/avatar4.webp 4x"
+              alt="" />
+            <span class="header__name">Алексей</span>
+            <img src="./images/header/icondown.svg" alt="icon" />
           </div>
-          <div class="header__icon">
-            <img src="./images/header/icon3.svg" alt="icon" />
-            <p class="header__icon_text">Корзина</p>
-          </div>
-        </div>
-        <div class="header__avatar">
-          <img class="header__image" src="./images/header/avatar.png" alt="" />
-          <span class="header__name">Алексей</span>
-          <img src="./images/header/icondown.svg" alt="icon" />
         </div>
       </div>
     </div>
   </header>
   <main>
     <section id="info">
-      <div class="container info__wrapper">
-        <img class="info__img" src="./images/info/img.webp" alt="card" />
-        <p class="info__text">Доставка бесплатно от 1000 ₽</p>
+      <div class="container">
+        <div class="info__wrapper">
+          <img class="info__img" src="./images/info/img.webp" alt="card" />
+          <p class="info__text">Доставка бесплатно от 1000 ₽</p>
+        </div>
       </div>
     </section>
     <!-- SALE -->
     <section id="sale">
-      <div class="container sale__wrapper">
-        <div class="top__text">
-          <p class="title">Акции</p>
-          <div class="top__shape">
-            <p class="text text_right">Все акции</p>
-            <img class="top__img" src="./images/sale/Shape.svg" alt="">
-          </div>
-        </div>
-        <div class="articles">
-          <!-- sale 1 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/sale/simage1.png" alt="">
-              <img class="article__img_like" src="./images/sale/like.svg" alt="">
-              <p class="article__img_discount text">-50%</p>
-            </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle">44,50 ₽</p>
-                <p class="text text_price_light">50,50 ₽</p>
-              </div>
-              <div class="article__card">
-                <p class="text_light">С картой</p>
-                <p class="text_light">Обычная</p>
-              </div>
-              <p class="text">Г/Ц Блинчики с мясом вес, Россия</p>
-              <div class="article__stars">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
-              </div>
-              <div class="article__button text">В корзину</div>
+      <div class="container">
+        <div class="sale__wrapper">
+          <div class="top__text">
+            <p class="title">Акции</p>
+            <div class="top__shape">
+              <p class="text text_right">Все акции</p>
+              <img class="top__img" src="./images/sale/Shape.svg" alt="">
             </div>
           </div>
-          <!-- sale 2 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/sale/simage2.png" alt="">
-              <img class="article__img_like" src="./images/sale/like.svg" alt="">
-              <p class="article__img_discount text">-50%</p>
+          <div class="articles">
+            <!-- sale 1 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/sale/simage1.png" alt="">
+                <img class="article__img_like" src="./images/sale/like.svg" alt="">
+                <p class="article__img_discount text">-50%</p>
+              </div>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle">44,50 ₽</p>
+                  <p class="text text_price_light">50,50 ₽</p>
+                </div>
+                <div class="article__card">
+                  <p class="text_light">С картой</p>
+                  <p class="text_light">Обычная</p>
+                </div>
+                <p class="text">Г/Ц Блинчики с мясом вес, Россия</p>
+                <div class="article__stars">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="article__button text">В корзину</div>
+              </div>
             </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle">44,50 ₽</p>
-                <p class="text text_price_light">50,50 ₽</p>
+            <!-- sale 2 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/sale/simage2.png" alt="">
+                <img class="article__img_like" src="./images/sale/like.svg" alt="">
+                <p class="article__img_discount text">-50%</p>
               </div>
-              <div class="article__card">
-                <p class="text_light">С картой</p>
-                <p class="text_light">Обычная</p>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle">44,50 ₽</p>
+                  <p class="text text_price_light">50,50 ₽</p>
+                </div>
+                <div class="article__card">
+                  <p class="text_light">С картой</p>
+                  <p class="text_light">Обычная</p>
+                </div>
+                <p class="text">Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</p>
+                <div class="article__stars">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="article__button text">В корзину</div>
               </div>
-              <p class="text">Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</p>
-              <div class="article__stars">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_gray.svg" alt="" width="16" height="16">
-              </div>
-              <div class="article__button text">В корзину</div>
             </div>
-          </div>
-          <!-- sale 3 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/sale/simage3.png" alt="">
-              <img class="article__img_like" src="./images/sale/like.svg" alt="">
-              <p class="article__img_discount text">-50%</p>
+            <!-- sale 3 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/sale/simage3.png" alt="">
+                <img class="article__img_like" src="./images/sale/like.svg" alt="">
+                <p class="article__img_discount text">-50%</p>
+              </div>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle">44,50 ₽</p>
+                  <p class="text text_price_light">50,50 ₽</p>
+                </div>
+                <div class="article__card">
+                  <p class="text_light">С картой</p>
+                  <p class="text_light">Обычная</p>
+                </div>
+                <p class="text">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+                <div class="article__stars">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                </div>
+                <div class="article__button text">В корзину</div>
+              </div>
             </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle">44,50 ₽</p>
-                <p class="text text_price_light">50,50 ₽</p>
+            <!-- sale 4 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/sale/simage4.png" alt="">
+                <img class="article__img_like" src="./images/sale/like.svg" alt="">
+                <p class="article__img_discount text">-50%</p>
               </div>
-              <div class="article__card">
-                <p class="text_light">С картой</p>
-                <p class="text_light">Обычная</p>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle">44,50 ₽</p>
+                  <p class="text text_price_light">50,50 ₽</p>
+                </div>
+                <div class="article__card">
+                  <p class="text_light">С картой</p>
+                  <p class="text_light">Обычная</p>
+                </div>
+                <p class="text">Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</p>
+                <div class="article__stars">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
+                </div>
+                <div class="article__button text">В корзину</div>
               </div>
-              <p class="text">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
-              <div class="article__stars">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-              </div>
-              <div class="article__button text">В корзину</div>
-            </div>
-          </div>
-          <!-- sale 4 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/sale/simage4.png" alt="">
-              <img class="article__img_like" src="./images/sale/like.svg" alt="">
-              <p class="article__img_discount text">-50%</p>
-            </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle">44,50 ₽</p>
-                <p class="text text_price_light">50,50 ₽</p>
-              </div>
-              <div class="article__card">
-                <p class="text_light">С картой</p>
-                <p class="text_light">Обычная</p>
-              </div>
-              <p class="text">Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</p>
-              <div class="article__stars">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/sale/Star_orange.svg" alt="" width="16" height="16">
-              </div>
-              <div class="article__button text">В корзину</div>
             </div>
           </div>
     </section>
     <!-- NEW -->
     <section id="new">
-      <div class="container new__wrapper">
-        <div class="top__text">
-          <p class="title">Новинки</p>
-          <div class="top__shape">
-            <p class="text text_right">Все новинки</p>
-            <img class="top__img" src="./images/new/Shape.svg" alt="">
-          </div>
-        </div>
-        <div class="articles">
-          <!-- new 1 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/new/nimage1.png" alt="">
-              <img class="article__img_like" src="./images/new/like.svg" alt="">
-            </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">599,99 ₽</p>
-              </div>
-              <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
-              <div class="article__stars">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-              </div>
-              <div class="text article__button">В корзину</div>
+      <div class="container">
+        <div class="new__wrapper">
+          <div class="top__text">
+            <p class="title">Новинки</p>
+            <div class="top__shape">
+              <p class="text text_right">Все новинки</p>
+              <img class="top__img" src="./images/new/Shape.svg" alt="">
             </div>
           </div>
-          <!-- new 2 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/new/nimage2.png" alt="">
-              <img class="article__img_like" src="./images/new/like.svg" alt="">
+          <div class="articles">
+            <!-- new 1 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/new/nimage1.png" alt="">
+                <img class="article__img_like" src="./images/new/like.svg" alt="">
+              </div>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">599,99 ₽</p>
+                </div>
+                <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <div class="article__stars">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
+              </div>
             </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">44,50 ₽</p>
+            <!-- new 2 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/new/nimage2.png" alt="">
+                <img class="article__img_like" src="./images/new/like.svg" alt="">
               </div>
-              <p class="text">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
-              <div class="article__stars">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">44,50 ₽</p>
+                </div>
+                <p class="text">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+                <div class="article__stars">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
               </div>
-              <div class="text article__button">В корзину</div>
             </div>
-          </div>
-          <!-- new 3 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/new/nimage3.png" alt="">
-              <img class="article__img_like" src="./images/new/like.svg" alt="">
+            <!-- new 3 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/new/nimage3.png" alt="">
+                <img class="article__img_like" src="./images/new/like.svg" alt="">
+              </div>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">159,99 ₽</p>
+                </div>
+                <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <div class="article__stars">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
+              </div>
             </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">159,99 ₽</p>
+            <!-- new 4 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/new/nimage4.png" alt="">
+                <img class="article__img_like" src="./images/new/like.svg" alt="">
               </div>
-              <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
-              <div class="article__stars">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">49,39 ₽</p>
+                </div>
+                <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <div class="article__stars">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
               </div>
-              <div class="text article__button">В корзину</div>
-            </div>
-          </div>
-          <!-- new 4 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/new/nimage4.png" alt="">
-              <img class="article__img_like" src="./images/new/like.svg" alt="">
-            </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">49,39 ₽</p>
-              </div>
-              <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
-              <div class="article__stars">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/new/Star_gray.svg" alt="" width="16" height="16">
-              </div>
-              <div class="text article__button">В корзину</div>
             </div>
           </div>
     </section>
     <!-- EARLIER -->
     <section id="Earlier">
-      <div class="container new__wrapper">
-        <div class="top__text">
-          <p class="title">Покупали раньше</p>
-          <div class="top__shape">
-            <p class="text text_right">Все покупки</p>
-            <img class="top__img" src="./images/earlier/Shape.svg" alt="">
-          </div>
-        </div>
-        <div class="articles">
-          <!-- earlier 1 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/earlier/eimage1.png" alt="">
-              <img class="article__img_like" src="./images/earlier/like.svg" alt="">
-            </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">77,99 ₽</p>
-              </div>
-              <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
-              <div class="article__stars">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-              </div>
-              <div class="text article__button">В корзину</div>
+      <div class="container">
+        <div class="earlier__wrapper">
+          <div class="top__text">
+            <p class="title">Покупали раньше</p>
+            <div class="top__shape">
+              <p class="text text_right">Все покупки</p>
+              <img class="top__img" src="./images/earlier/Shape.svg" alt="">
             </div>
           </div>
-          <!-- earlier 2 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/earlier/eimage2.png" alt="">
-              <img class="article__img_like" src="./images/earlier/like.svg" alt="">
+          <div class="articles">
+            <!-- earlier 1 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/earlier/eimage1.png" alt="">
+                <img class="article__img_like" src="./images/earlier/like.svg" alt="">
+              </div>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">77,99 ₽</p>
+                </div>
+                <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <div class="article__stars">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
+              </div>
             </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">159,99 ₽</p>
+            <!-- earlier 2 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/earlier/eimage2.png" alt="">
+                <img class="article__img_like" src="./images/earlier/like.svg" alt="">
               </div>
-              <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
-              <div class="article__stars">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">159,99 ₽</p>
+                </div>
+                <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <div class="article__stars">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
               </div>
-              <div class="text article__button">В корзину</div>
             </div>
-          </div>
-          <!-- earlier 3 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/earlier/eimage3.png" alt="">
-              <img class="article__img_like" src="./images/earlier/like.svg" alt="">
+            <!-- earlier 3 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/earlier/eimage3.png" alt="">
+                <img class="article__img_like" src="./images/earlier/like.svg" alt="">
+              </div>
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">599,99 ₽</p>
+                </div>
+                <p class="text">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+                <div class="article__stars">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
+              </div>
             </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">599,99 ₽</p>
+            <!-- earlier 4 article -->
+            <div class="article">
+              <div class="article__img">
+                <img class="article__product" src="./images/earlier/eimage3.png" alt="">
+                <img class="article__img_like" src="./images/earlier/like.svg" alt="">
               </div>
-              <p class="text">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
-              <div class="article__stars">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+              <div class="article__inner">
+                <div class="article__price">
+                  <p class="subtitle subtitle_margin">49,39 ₽</p>
+                </div>
+                <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                <div class="article__stars">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                  <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
+                </div>
+                <div class="text article__button">В корзину</div>
               </div>
-              <div class="text article__button">В корзину</div>
-            </div>
-          </div>
-          <!-- earlier 4 article -->
-          <div class="article">
-            <div class="article__img">
-              <img class="article__product" src="./images/earlier/eimage3.png" alt="">
-              <img class="article__img_like" src="./images/earlier/like.svg" alt="">
-            </div>
-            <div class="article__inner">
-              <div class="article__price">
-                <p class="subtitle subtitle_margin">49,39 ₽</p>
-              </div>
-              <p class="text">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
-              <div class="article__stars">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_orange.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-                <img src="./images/earlier/Star_gray.svg" alt="" width="16" height="16">
-              </div>
-              <div class="text article__button">В корзину</div>
             </div>
           </div>
     </section>
     <!-- SPECIAL -->
     <section id="special">
-      <div class="container special__wrapper">
-        <div class="top__text">
-          <p class="title">Специальные предложения</p>
-        </div>
-        <div class="special__articles">
-          <!-- special 1 article -->
-          <article class="special__article">
-            <div class="special__article_text">
-              <p class="special__article_title">Оформите карту «Северяночка»</p>
-              <p class="special__article_subtitle">И получайте бонусы при покупке в магазинах и на сайте</p>
-            </div>
-            <div class="special__article_leftimg">
-              <img src="./images/special/card.webp" alt="">
-            </div>
-          </article>
-          <!-- special 2 article -->
-          <article class="special__article special__article_right">
-            <div class="special__article_text">
-              <p class="special__article_title">Покупайте акционные товары</p>
-              <p class="special__article_subtitle">И получайте вдвое больше бонусов</p>
-            </div>
-            <div class="special__article_righttimg">
-              <img src="./images/special/card2.webp" alt="">
-            </div>
-          </article>
+      <div class="container">
+        <div class="special__wrapper">
+          <div class="top__text">
+            <p class="title">Специальные предложения</p>
+          </div>
+          <div class="special__articles">
+            <!-- special 1 article -->
+            <article class="special__article">
+              <div class="special__article_text">
+                <p class="special__article_title">Оформите карту «Северяночка»</p>
+                <p class="special__article_subtitle">И получайте бонусы при покупке в магазинах и на сайте</p>
+              </div>
+              <div class="special__article_img">
+                <img class="special__article_leftimg" src="./images/special/card.webp" alt="">
+              </div>
+            </article>
+            <!-- special 2 article -->
+            <article class="special__article special__article_right">
+              <div class="special__article_text">
+                <p class="special__article_title">Покупайте акционные товары</p>
+                <p class="special__article_subtitle">И получайте вдвое больше бонусов</p>
+              </div>
+              <div class="special__article_img">
+                <img class="special__article_rightimg" src="./images/special/card2.webp" alt="">
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
-    <section>
+    <section id="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="top__text">
+            <p class="title">Наши магазины</p>
+          </div>
+          <div class="contact__citys">
+            <button class="contact__city text">п.Щельяюр</button>
+            <button class="contact__city text">д.Вертеп</button>
+            <button class="contact__city text">с.Краснобор</button>
+            <button class="contact__city text">д.Диюр</button>
+          </div>
+          <img class="contact__map_img" src="./images/map/map.webp" srcset="./images/map/map2x.webp 2x" alt="">
+        </div>
+      </div>
     </section>
   </main>
 </body>

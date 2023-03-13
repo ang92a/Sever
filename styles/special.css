@@ -3,7 +3,7 @@
 }
 
 .special__wrapper {
-    padding: 0 20px 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -19,7 +19,8 @@
     border-radius: 4px;
     display: flex;
     width: 584px;
-
+    align-items: center;
+    height: 200px;
 }
 
 .special__article_text {
@@ -47,15 +48,22 @@
     width: 258px;
 }
 
+.special__article_img {
+    width: 286px;
+}
+
 .special__article_leftimg {
     display: block;
-    margin-left: -21px;
+    object-fit: contain;
+    object-position: center;
+    max-width: 286px;
+    height: auto;
 }
 
 .special__article_right {
     background: #E5FFDE;
 }
 
-.special__article_righttimg{
-    padding-top: 20px;
+.special__article_rightimg {
+padding-left: 50px;
 }
