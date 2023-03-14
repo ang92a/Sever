@@ -10,22 +10,24 @@
 }
 
 .top__shape {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
+  text-align: left;
   width: 145px;
-}
-
-.top__img {
-  display: block;
-  margin-left: 17px;
-  width: 7px;
-  height: 14px;
+  border: none;
+  background: none;
   transition: 0.3s;
 }
 
-.top__img:hover {
-  transform: scale(1.5);
+.top__img {
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  width: 7px;
+  height: 14px;
+}
+
+.top__shape:hover {
+  transform: scale(1.2);
   transition: 0.3s;
   cursor: pointer;
 }
